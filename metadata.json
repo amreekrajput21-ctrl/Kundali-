@@ -1,0 +1,6 @@
+{
+  "name": "Kundli Jyotish",
+  "description": "Real-time Vedic Kundli, planetary calculations, doshas, rashifal, and daily astrological predictions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

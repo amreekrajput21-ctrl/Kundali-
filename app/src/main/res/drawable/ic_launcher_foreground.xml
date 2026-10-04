@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Outer Vedic Square -->
+        <path
+            android:pathData="M27,27 L81,27 L81,81 L27,81 Z"
+            android:strokeColor="#FFC107"
+            android:strokeWidth="2.2"
+            android:fillColor="#15FFD54F" />
+        <!-- Inner Diamond (Kendra) -->
+        <path
+            android:pathData="M54,27 L81,54 L54,81 L27,54 Z"
+            android:strokeColor="#FFE082"
+            android:strokeWidth="2.2"
+            android:fillColor="#22FFB300" />
+        <!-- Diagonals of Vedic Kundli Chakra -->
+        <path
+            android:pathData="M27,27 L81,81 M81,27 L27,81"
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="1.8" />
+        <!-- Radiant Central Sun Disk -->
+        <path
+            android:pathData="M54,47 A7,7 0 1,1 53.9,47 Z"
+            android:fillColor="#FFD54F" />
+        <!-- Sun Rays / Lotus Petals -->
+        <path
+            android:pathData="M54,43 L54,39 M54,65 L54,69 M43,54 L39,54 M65,54 L69,54 M46,46 L43,43 M62,62 L65,65 M46,62 L43,65 M62,46 L65,43"
+            android:strokeColor="#FFA000"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+        <!-- Planetary Bindus (Stars) in Cardinal Houses -->
+        <path
+            android:pathData="M54,33 A2,2 0 1,1 53.9,33 Z"
+            android:fillColor="#FFFFFF" />
+        <path
+            android:pathData="M75,54 A2,2 0 1,1 74.9,54 Z"
+            android:fillColor="#FF8A80" />
+        <path
+            android:pathData="M54,75 A2,2 0 1,1 53.9,75 Z"
+            android:fillColor="#80D8FF" />
+        <path
+            android:pathData="M33,54 A2,2 0 1,1 32.9,54 Z"
+            android:fillColor="#B9F6CA" />
+    </group>
+</vector>
